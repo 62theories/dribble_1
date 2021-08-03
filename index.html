@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="content.css">
+    <link 
+    href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+    rel="stylesheet"  type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" integrity="sha512-Cv93isQdFwaKBV+Z4X8kaVBYWHST58Xb/jVOcV9aRsGSArZsgAnFIhMpDoMDcFNoUtday1hdjn0nGp3+KZyyFw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="page">
@@ -68,8 +74,51 @@
             </div>
         </div>
         <div class="page__content">
-            content
+            <div class="page_content__navbar">
+                <div class="navbar__burger">
+                    <i class="fa fa-bars"></i>
+                </div>
+                <div class="navbar__navbar_menu">
+                    <div class="navbar_menu__noti">
+                        <i class="fa fa-bell"></i>
+                    </div>
+                    <div class="navbar_menu__setting">
+                        <i class="fa fa-cog"></i>
+                    </div>
+                    <div class="navbar_menu__language">
+                        <span class="flag-icon flag-icon-gr"></span>
+                    </div>
+                    <div class="navbar_menu__profile">
+                        <div class="profile__img">
+                            <img src="https://via.placeholder.com/150/24f355" alt="">
+                        </div>
+                        <div class="profile__name">
+                            <label class="profile__name__text">Kale Doe</label>
+                            <i class="fa fa-chevron-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content_container">
+                <div class="page_content__overview">
+                    <label class="overview__text">Overview</label>
+                    <div class="overview__date_box">
+                        <div class="date_box__input_box">
+                            <input type="text" value="12/12/09"/>
+                            <i class="fa fa-calendar"></i>
+                        </div>
+                        &nbsp;
+                        <label for="">-</label>
+                        &nbsp;
+                        <div class="date_box__input_box">
+                            <input type="text" value="12/12/09">
+                            <i class="fa fa-calendar"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+    
 </body>
 </html>

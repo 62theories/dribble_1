@@ -1,0 +1,104 @@
+.page__content {
+    background-color:var(--secondary);
+    flex: 80% 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.page_content__navbar {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+    align-items: center;
+}
+
+.navbar__burger {
+    font-size: 1.5rem;
+}
+
+.navbar__navbar_menu {
+    display: flex;
+    align-items: center;
+}
+
+.navbar_menu__noti {
+    font-size: 1.25rem;
+}
+
+.navbar_menu__setting {
+    font-size: 1.25rem;
+    margin-left: 0.7rem;
+}
+
+.navbar_menu__language {
+    border-radius: 50%;
+    margin-left: 0.7rem;
+    height: 1.25rem;
+    width: 1.25rem;
+    overflow: hidden;
+}
+
+.navbar_menu__profile {
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.profile__img {
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    overflow: hidden;
+}
+
+.profile__name {
+    margin-left: 0.25rem;
+    cursor: pointer;
+}
+
+.profile__name__text {
+    font-weight: bold;
+    margin-right: 0.3rem;
+    cursor: pointer;
+}
+
+.content_container {
+    padding: 0 2rem;
+}
+
+.page_content__overview {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.overview__text {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.overview__date_box {
+    display: flex;
+}
+
+.date_box__input_box {
+    position: relative;
+}
+
+.date_box__input_box input {
+    padding: 0.3rem;
+    width: 8rem;
+    border-radius: 5px;
+    border-color: whitesmoke;
+    border: 1px solid #ccc;
+    padding-right: 2rem;
+}
+
+.date_box__input_box i {
+    position: absolute;
+    top: 0.3rem;
+    right: 0.7rem;
+}
+
