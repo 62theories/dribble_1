@@ -1,6 +1,6 @@
 .page__sidebar {
     background-color: var(--primary);
-    flex: 20% 0 0;
+    flex: 0 1 20%;
 }
 
 .logo_bar {
